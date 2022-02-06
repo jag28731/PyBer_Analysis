@@ -25,4 +25,4 @@ Recommendations based on analysis.
 2.	Rural city type has the least amount of business but the rides cost more. The rides could be a farther distance so an increase in drivers could handle the call volume better, however that may decrease the average fare per drivers.
 3.	March and April have the highest fares cost. I would increase the drivers to handle the workload during those times. 
 
-![Graph](https://github.com/jag28731/PyBer_Analysis/blob/main/Resources/Graph.png)
+![Graph](https://github.com/jag28731/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
