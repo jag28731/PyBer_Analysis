@@ -1,25 +1,28 @@
 # Pyber Analysis
 
 ## Overview of Project
-Maria and her supervisor were notified by the school board of academic dishonesty for Thomas High School ninth graders.
+V. Isualize has given Omar and myself a brand-new assignment. We wil create a summary dataframe of the ride-sharing data by city type. Then, we will create a multiple-line graph that shows the total weekly fares for each city type.
   
 ### Purpose
-The purpose of my analysis was to conduct a school grade audit and visually show whether or not dishonesty has occurred. The school board does not know the full extent of the dishonesty, so I have been tasked with replacing the math and reading scores for Thomas High School with NaNs. I will repeat the school district analysis and write a report of how these changes affected the analysis. 
+The purpose of my analysis was to was to create a dataframe and multi-line graph to show the total weekly fares for each city type. This project will allow V. Isualize to visually see the how much each city made on a weekly basis. 
 
 ## Pyber Analysis Results
-Maria has tasked me to analyze academic scores to determine academic dishonesty. I was able replace the math and reading scores for Thomas High School with NaNs and rerun the school district analysis to determine the overall change. 
+V. Isualize has given Omar and myself a project to determine the weekly fares amount by city type. Below are the results of our analysis.  
 
 ### Results
-- How is the district summary affected?
+- Results by city type:
+  - Rural: Rural has the least amount of rides and drivers but the average fare price for the rides and drivers is the highest. Rural had 125 rides,	78 drivers,	34.623440 average ride cost and	55.486282 fare per driver.
+  - Urban: Urban had the most amount of rides and drivers but the lowest average fare price for the rides and drivers. Urban had 1625 rides,	2405 drivers,	24.525772 average ride cost and	16.571468 fare per driver. 
+  - Suburban: Suburban was the middle of the pack for rides, drivers, and average fare price for rides and drivers. Suburban had 625 rides,	490 drivers, 30.970128 average ride cost and	39.502714 fare per driver.
 
-  After running the analysis, the district school summary was affected slightly.  After replacing Thomas High School 9th grade scores for reading and math, the average math       score went down .1%, the average reading score remained the same, the percent passing math went down .2%, the percent passing reading went down .1%, and the overall passing     went down .3%. 
+In the end, rural ranked lowest in rides/drivers but the average fare cost was the highest. Urban ranked the highest in rides/drivers but the average fare cost was the lowest. The city type that brought in the most money was the Urban city type. 
 
-  Pre Analysis
-![District](https://github.com/jag28731/School_District_Analysis/blob/main/Resources/Pre%20District.png)
+![Fares](https://github.com/jag28731/PyBer_Analysis/blob/main/Resources/City%20type%20fares.png)
     
 ## Pyber Analysis Summary
-Overall, there changes were minimum.  The four follow changes occurred. 
-1.	The average math score went down .1%
-2.	The percent passing math went down .2%
-3.	The percent passing reading went down .1%
-4.	The overall passing went down .3%
+- Recommendations based on analysis. 
+1.	Urban city type provides the most business. The amount of rides was less than drivers so a decrease in drivers could increase the average fare per driver.
+2.	Rural city type has the least amount of business but the rides cost more. The rides could be a farther distance so an increase in drivers could handle the call volume better, however that may decrease the average fare per drivers.
+3.	March and April have the highest fares cost. I would increase the drivers to handle the workload during those times. 
+
+![Graph](https://github.com/jag28731/PyBer_Analysis/blob/main/Resources/Graph.png)
